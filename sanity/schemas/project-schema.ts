@@ -25,18 +25,18 @@ const project = {
           title: "Alt",
           type: "string",
         },
-        {
-          name: "url",
-          title: "URL",
-          type: "url",
-        },
-        {
-          name: "content",
-          title: "Content",
-          type: "array",
-          of: [{ type: "block" }],
-        },
       ],
+    },
+    {
+      name: "url",
+      title: "URL",
+      type: "url",
+    },
+    {
+      name: "content",
+      title: "Content",
+      type: "array",
+      of: [{ type: "block" }],
     },
   ],
 };

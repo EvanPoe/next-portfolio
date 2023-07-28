@@ -8,7 +8,7 @@ export default async function Home() {
     <div className="max-w-5xl mx-auto py-20">
       <h1 className="text-7xl font-extrabold">
         Hello I&apos;m{" "}
-        <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent">
           Evan
         </span>
         !
@@ -29,7 +29,7 @@ export default async function Home() {
                 className="object-cover rounded-lg border border-gray-500"
               />
             )}
-            <div className="mt-2 font-extrabold bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
+            <div className="mt-2 font-extrabold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent">
               {project.name}
             </div>
           </Link>
