@@ -1,10 +1,6 @@
 import Link from "next/link";
-import "./globals.css";
+import "../globals.css";
 import type { Metadata } from "next";
-
-// These styles apply to every route in the application
-import './globals.css'
-
 
 export const metadata: Metadata = {
   title: "My Next Portfolio site!",
@@ -20,9 +16,12 @@ export default function RootLayout({
     <html lang="en">
       <body className="max-w-3xl mx-auto py-10">
         <header>
-          <Link href='/'
-          className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent text-lg font-bold"
-          >Evan</Link>
+          <Link
+            href="/"
+            className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent text-lg font-bold"
+          >
+            Evan
+          </Link>
         </header>
         <main className="py-20">{children}</main>
       </body>
